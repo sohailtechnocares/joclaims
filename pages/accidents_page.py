@@ -163,6 +163,9 @@ class AccidentsPage:
 
     # Actions
     def go_to_accident_page(self):
+        print("this is sohail")
+
+    def go_to_accident_page(self):
         self.wait.until(EC.element_to_be_clickable(self.accident_button)).click()
 
 
