@@ -21,6 +21,12 @@ class LoginPage:
         self.driver.find_element(*self.username_input).send_keys(username)
         self.driver.find_element(*self.password_input).send_keys(password)
         self.driver.find_element(*self.login_button).click()
+
+    def method1(self):
+        print("this is a sohail")
+
+    def method2(self):
+        print("this is a sohail")
     #
     # def is_logged_in(self):
     #     # Example: check if logout button or dashboard is visible

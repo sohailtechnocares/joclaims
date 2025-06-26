@@ -9,6 +9,8 @@ def test_login_with_valid_credentials(driver):
     time.sleep(1)
     login_page.login("abdul@bahrain.com","123456")
     time.sleep(5)
+    login_page.method1()
+    login_page.method2()
 
 
     # assert "Invalid username or password" in login_page.get_error_message()
