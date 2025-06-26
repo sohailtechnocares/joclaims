@@ -152,7 +152,14 @@ class AccidentsPage:
         # accident markers locaters
 
         # Final Actions
-        self.submit_button = (By.CSS_SELECTOR, "button[type='submit']")
+        self.submit_button = (By.CSS_SELECTOR, "button[type='submit']")k
+
+    # def wait_for_alert(self, timeout=10):
+    #     return WebDriverWait(self.driver, timeout).until(EC.alert_is_present())
+    #
+    # def accept_alert(self):
+    #     alert = self.wait_for_alert()
+    #     alert.accept()
 
     # Actions
     def go_to_accident_page(self):
