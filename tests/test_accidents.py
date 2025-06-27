@@ -87,7 +87,7 @@ def test_login_with_valid_credentials(driver):
     accident_page.click_and_select_surveyor_date()
     time.sleep(2)
     accident_page.click_and_select_surveyor_current_date()
-    time.sleep(2)
+    time.sleep(1)
     # accident_page.click_current_date()
     # accident_page.click_and_select_surveyor_date_button()
     # time.sleep(2)

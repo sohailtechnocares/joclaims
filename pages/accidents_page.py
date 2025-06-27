@@ -60,7 +60,7 @@ class AccidentsPage:
 
         # self.select_servey_date=(By.XPATH,"//div[contains(text(),'20')]")
         self.select_servey_date = (By.XPATH, "(//button[@type='button'])[8]")
-        self.select_current_date=By.XPATH, "(//div[contains(text(),'23')])[1]"
+        self.select_current_date=By.XPATH, "//div[@class='btn-light ng-star-inserted'][normalize-space()='27']"
         self.make = (By.XPATH, "(//input[@role='combobox'])[9]")
         self.make_input=(By.XPATH, "(//div[@class='ng-input'])[9]//input[@role='combobox']")
         self.click_model =(By.XPATH,"(//input[@role='combobox'])[10]")
